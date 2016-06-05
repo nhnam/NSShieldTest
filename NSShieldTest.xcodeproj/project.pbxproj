@@ -13,7 +13,6 @@
 		D8E3BFD81D0404A300B93858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E3BFD61D0404A300B93858 /* Main.storyboard */; };
 		D8E3BFDA1D0404A300B93858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E3BFD91D0404A300B93858 /* Assets.xcassets */; };
 		D8E3BFDD1D0404A300B93858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E3BFDB1D0404A300B93858 /* LaunchScreen.storyboard */; };
-		D8E3BFE61D04057000B93858 /* UIKit+Shield.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E3BFE51D04057000B93858 /* UIKit+Shield.m */; };
 		FCA7D7D16A6D3A945102545F /* libPods-NSShieldTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4FAEC77FFDACC05BBAC14D /* libPods-NSShieldTest.a */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +29,6 @@
 		D8E3BFD91D0404A300B93858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8E3BFDC1D0404A300B93858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8E3BFDE1D0404A300B93858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8E3BFE41D04057000B93858 /* UIKit+Shield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+Shield.h"; sourceTree = "<group>"; };
-		D8E3BFE51D04057000B93858 /* UIKit+Shield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIKit+Shield.m"; sourceTree = "<group>"; };
 		EA8C7D4B9E98C172A4D30DA1 /* Pods-NSShieldTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSShieldTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSShieldTest/Pods-NSShieldTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,8 +83,6 @@
 				D8E3BFDB1D0404A300B93858 /* LaunchScreen.storyboard */,
 				D8E3BFDE1D0404A300B93858 /* Info.plist */,
 				D8E3BFCD1D0404A300B93858 /* Supporting Files */,
-				D8E3BFE41D04057000B93858 /* UIKit+Shield.h */,
-				D8E3BFE51D04057000B93858 /* UIKit+Shield.m */,
 			);
 			path = NSShieldTest;
 			sourceTree = "<group>";
@@ -229,7 +224,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E3BFE61D04057000B93858 /* UIKit+Shield.m in Sources */,
 				D8E3BFD51D0404A300B93858 /* ViewController.m in Sources */,
 				D8E3BFD21D0404A300B93858 /* AppDelegate.m in Sources */,
 				D8E3BFCF1D0404A300B93858 /* main.m in Sources */,
