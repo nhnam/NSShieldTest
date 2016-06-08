@@ -23,7 +23,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //1.
     [self sendAFakeMessage];
+
+    //2.
+    [self performSelector:@selector(sendAFakeMessage)];
 }
 
 - (void)didReceiveMemoryWarning {
